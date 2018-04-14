@@ -6,6 +6,13 @@ Attending this workshop on 2018 April 16 at Indy.code().
 ### Initial setup
 **Do not need to repeat this.**
 Recording how I initially setup the environment
+
+First, download Anaconda [here](https://www.anaconda.com/download/#download). Choose the Python 3.6 version.
+
+Step through the installer. After completion, you now have an `anaconda3` directory at the root of your system. 
+
+On OSX, you do not have an "anaconda prompt" like on windows. Instead, you open a regular old terminal and "activate" Anaconda.
+
 ```bash
 # Initial environment setup
 source /anaconda3/bin/activate
