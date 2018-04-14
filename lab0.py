@@ -22,6 +22,7 @@ def main():
     
     knights = assembleKnights()
     print(knights.source)
+    knights.render('output/round-table.gv', view=False)
 
 if __name__ == "__main__":
     main()
