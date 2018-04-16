@@ -183,7 +183,7 @@ from sklearn.preprocessing import StandardScaler
 #%% Create a standard scaler
 scaler = StandardScaler()
 
-#%% Fit the scaler to all training data
+#%% Fit the scaler to all data
 scaler.fit(X)
 
 #%% Scale the training and test data
