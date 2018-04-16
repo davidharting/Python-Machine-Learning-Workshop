@@ -4,13 +4,13 @@
 import os
 
 #%% Set the working directory
-os.chdir("C:\\Users\\Matthew\\Dropbox\\Professional\\Workshops\\Practical Machine Learning with Python\\Data")
+# os.chdir("C:\\Users\\Matthew\\Dropbox\\Professional\\Workshops\\Practical Machine Learning with Python\\Data")
 
 #%% Import the pandas library
 import pandas as pd
 
 #%% Read the Iris CSV file
-iris = pd.read_csv("Iris.csv")
+iris = pd.read_csv("data/Iris.csv")
 
 #%% Import the matplotlib library
 import matplotlib.pyplot as plt
